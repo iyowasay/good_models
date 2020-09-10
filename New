@@ -1,0 +1,14 @@
+model1: bs = 64, lr = 0.0001, epoch = 5, speed = 15, n_data = 7, passed
+
+model2: bs = 64, lr = 0.0001, epoch = 10, speed = 25, n_data = 6, passed but bad performance.
+
+model3: bs = 128, lr = 0.0001, epoch = 6, speed = 25, n_data = 6,+1164 layer, passed, stay in the right lane but almost fall off the track at the first sharp turn(dirt)
+
+model4: bs = 128, lr = 0.0001, epoch = 15, speed = 25, n_data = 9, +1164 layer, passed but shaky shaking alot
+
+model5: bs = 64, lr = 0.0005, epoch = 15, speed = 20, n_data = 9, +1164 layer, passed still shaky
+
+model6: bs = 64, lr = 0.0001, epoch = 7, speed = 25, n_data = 7, +1164 layer, passed but shaky 
+
+model7: bs = 64, lr = 0.0001, epoch = 7, speed = 25, n_data = 1-6, 8, +1164 layer, steer_correct = 0.18, passed a bit better, but shaky in small-angle turns or straight line, bad performance around the water turn.
+
